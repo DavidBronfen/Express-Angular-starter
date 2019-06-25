@@ -1,14 +1,13 @@
+npm-debug.log
+.DS_Store
+
 # compiled output
 /dist
 /tmp
 /out-tsc
 
 # dependencies
-client/node_modules
-
-# profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+node_modules
 
 # IDEs and editors
 /.idea
@@ -29,12 +28,17 @@ speed-measure-plugin.json
 # misc
 /.sass-cache
 /connect.lock
-/coverage
+coverage
+.nyc_output
+coverage.lcov
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
 testem.log
 /typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
 
 # System Files
 .DS_Store
